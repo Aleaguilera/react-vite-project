@@ -1,0 +1,16 @@
+import React, { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { App } from './App';
+
+// Define el componente FUERA de render()
+
+
+// Luego renderiza
+
+createRoot(document.getElementById('root')).render(
+<React.Fragment>
+  <App/>
+</React.Fragment>
+)
+
+
